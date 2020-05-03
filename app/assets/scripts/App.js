@@ -2,6 +2,7 @@
 import "../styles/styles.scss";
 import MobileMenu from "./modules/MobileMenu";
 import RevealOnScroll from "./modules/RevealOnScroll";
+import StickyHeader from "./modules/StickyHeader";
 // import Person from "./modules/Person";
 
 if (module.hot) {
@@ -9,9 +10,9 @@ if (module.hot) {
 }
 
 // let revealOnScroll = new RevealOnScroll();
-
+let stickyHeader = new StickyHeader();
 new RevealOnScroll(document.querySelectorAll(".feature-item"), 75);
-new RevealOnScroll(document.querySelectorAll(".testimonial"), 50);
+new RevealOnScroll(document.querySelectorAll(".testimonial"), 70);
 
 let mobileMenu = new MobileMenu();
 

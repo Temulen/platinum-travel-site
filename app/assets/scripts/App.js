@@ -14,6 +14,7 @@ if (module.hot) {
 
 // let revealOnScroll = new RevealOnScroll();
 // new Modal();
+// alert("testing!!!");
 let stickyHeader = new StickyHeader();
 new RevealOnScroll(document.querySelectorAll(".feature-item"), 75);
 new RevealOnScroll(document.querySelectorAll(".testimonial"), 70);

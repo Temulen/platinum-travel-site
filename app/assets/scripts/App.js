@@ -5,6 +5,7 @@ import MobileMenu from "./modules/MobileMenu";
 import RevealOnScroll from "./modules/RevealOnScroll";
 import StickyHeader from "./modules/StickyHeader";
 import { type } from "os";
+import ClientArea from "./modules/ClientArea";
 // import Modal from "./modules/Modal";
 // import Person from "./modules/Person";
 
@@ -15,6 +16,7 @@ if (module.hot) {
 // let revealOnScroll = new RevealOnScroll();
 // new Modal();
 // alert("testing!!!");
+new ClientArea();
 let stickyHeader = new StickyHeader();
 new RevealOnScroll(document.querySelectorAll(".feature-item"), 75);
 new RevealOnScroll(document.querySelectorAll(".testimonial"), 70);

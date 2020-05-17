@@ -6,6 +6,17 @@ import RevealOnScroll from "./modules/RevealOnScroll";
 import StickyHeader from "./modules/StickyHeader";
 import { type } from "os";
 import ClientArea from "./modules/ClientArea";
+
+import React from "react";
+import ReactDOM from "react-dom";
+
+import MyReactComponent from "./modules/MyReactComponent";
+
+ReactDOM.render(
+  <MyReactComponent />,
+  document.querySelector("#my-react-example")
+);
+
 // import Modal from "./modules/Modal";
 // import Person from "./modules/Person";
 
